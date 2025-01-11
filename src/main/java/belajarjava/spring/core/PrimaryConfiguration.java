@@ -6,7 +6,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
 @Configuration
-public class DuplicateConfiguration {
+public class PrimaryConfiguration {
+    @Primary
     @Bean
     public Foo foo1() {
         return new Foo();

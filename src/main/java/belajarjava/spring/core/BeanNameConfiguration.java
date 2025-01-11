@@ -6,13 +6,15 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
 @Configuration
-public class DuplicateConfiguration {
-    @Bean
+public class BeanNameConfiguration {
+    @Primary
+    @Bean(value = "fooFirst")
     public Foo foo1() {
         return new Foo();
     }
 
-    @Bean Foo foo2() {
+    @Bean(value = "fooSecond")
+    Foo foo2() {
         return new Foo();
     }
 }
