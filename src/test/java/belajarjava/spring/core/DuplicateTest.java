@@ -1,5 +1,6 @@
 package belajarjava.spring.core;
 
+import belajarjava.spring.core.DuplicateBean.DuplicateConfiguration;
 import belajarjava.spring.core.data.Foo;
 
 import org.junit.jupiter.api.Assertions;
