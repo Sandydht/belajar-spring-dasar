@@ -1,14 +1,10 @@
 package belajarjava.spring.core.data.cyclic;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 
 @Data
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class CyclicC {
-    @Autowired
     private CyclicA cyclicA;
-
-    public CyclicC(CyclicA cyclicA) {}
 }
