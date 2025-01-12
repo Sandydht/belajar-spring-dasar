@@ -1,5 +1,6 @@
 package belajarjava.spring.core;
 
+import belajarjava.spring.core.MengubahNamaBean.BeanNameConfiguration;
 import belajarjava.spring.core.data.Foo;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
