@@ -7,9 +7,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class BeanConfiguration {
     @Bean
-    public Foo foo() {
-        Foo foo = new Foo();
+    public Foo foo3() {
+        Foo foo3 = new Foo();
         System.out.println("Create new foo");
-        return foo;
+        return foo3;
     }
 }

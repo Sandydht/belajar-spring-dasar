@@ -3,8 +3,8 @@ package belajarjava.spring.core.data;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-@AllArgsConstructor
 @Data
+@AllArgsConstructor
 public class FooBar {
     private Foo foo;
     private Bar bar;

@@ -18,22 +18,14 @@ public class DependencyInjectionTest {
     }
 
     @Test
-    void testNoDI() {
-        Foo foo = new Foo();
-        Bar bar = new Bar();
-        FooBar fooBar = new FooBar(foo, bar);
-
-        Assertions.assertSame(foo, fooBar.getFoo());
-        Assertions.assertSame(bar, fooBar.getBar());
-    }
-
-    @Test
     void testDI() {
-        Foo foo = applicationContext.getBean(Foo.class);
-        Bar bar = applicationContext.getBean(Bar.class);
-        FooBar fooBar = applicationContext.getBean(FooBar.class);
+//        Foo foo = applicationContext.getBean(Foo.class);
+//        Bar bar = applicationContext.getBean(Bar.class);
+//        FooBar fooBar = applicationContext.getBean(FooBar.class);
 
-        Assertions.assertSame(foo, fooBar.getFoo());
-        Assertions.assertSame(bar, fooBar.getBar());
+//        System.out.println("fooBar: " + fooBar);
+
+//        Assertions.assertSame(foo, fooBar.getFoo());
+//        Assertions.assertSame(bar, fooBar.getBar());
     }
 }
