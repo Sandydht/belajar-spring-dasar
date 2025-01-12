@@ -1,5 +1,6 @@
 package belajarjava.spring.core;
 
+import belajarjava.spring.core.DependencyInjection.DependencyInjectionConfiguration;
 import belajarjava.spring.core.data.Bar;
 import belajarjava.spring.core.data.Foo;
 import belajarjava.spring.core.data.FooBar;

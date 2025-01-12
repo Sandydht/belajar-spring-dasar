@@ -24,7 +24,7 @@ public CyclicC cyclicC(CyclicA cyclicA) {
 try {
     ApplicationContext applicationContext = new AnnotationConfigApplicationContext(CyclicConfiguraton.class);
     Assertions.fail("It must be fail because cyclic");
-} catch(error) {
+} catch(BeanException exception) {
     exception.printStackTrace();
 }
 ```
