@@ -1,4 +1,4 @@
-package belajarjava.spring.core;
+package belajarjava.spring.core.CircularDependencies;
 
 import belajarjava.spring.core.data.cyclic.CyclicA;
 import belajarjava.spring.core.data.cyclic.CyclicB;

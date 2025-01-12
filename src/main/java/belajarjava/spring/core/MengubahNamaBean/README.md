@@ -18,3 +18,12 @@ public Foo foo2() {
     return foo;
 }
 ```
+- Kode: Mengakses Bean
+```java
+Foo foo = applicationContext.getBean(Foo.class);
+Foo foo1 = applicationContext.getBean("fooFirst", Foo.class);
+Foo foo2 = applicationContext.getBean("fooSecond", Foo.class);
+
+Assertions.assertSame(foo, foo1);
+Assertions.assertNotSame(foo1, foo2);
+```
