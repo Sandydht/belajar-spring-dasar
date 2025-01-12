@@ -1,4 +1,4 @@
-package belajarjava.spring.core;
+package belajarjava.spring.core.Singleton;
 
 public class Database {
     private static Database database;

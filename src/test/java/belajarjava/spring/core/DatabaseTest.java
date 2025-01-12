@@ -1,5 +1,6 @@
 package belajarjava.spring.core;
 
+import belajarjava.spring.core.Singleton.Database;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
