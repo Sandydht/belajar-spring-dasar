@@ -1,9 +1,7 @@
 package belajarjava.spring.core.MembuatScope;
 
 import org.springframework.beans.factory.ObjectFactory;
-import org.springframework.beans.factory.config.CustomScopeConfigurer;
 import org.springframework.beans.factory.config.Scope;
-import org.springframework.context.annotation.Bean;
 
 import java.util.ArrayList;
 import java.util.List;
